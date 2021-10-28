@@ -51,15 +51,14 @@ btnRoll.addEventListener('click', function () {
 
     //2.display the dice
     diceEl.classList.remove('hidden');
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `/dice-${dice}.png`;
 
     //3.Check for rolled
     if (dice !== 1) {
       //Add dice to the crrent user
       currentScore += dice;
-      document.getElementById(
-        `current--${activePlayer}`
-      ).textContent = currentScore;
+      document.getElementById(`current--${activePlayer}`).textContent =
+        currentScore;
     } else {
       //Switch to other player
       switchPlayer();
