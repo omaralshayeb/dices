@@ -1,3 +1,3 @@
-# DICES GAME
+# DICED
 
-a simple game with javascript
+A simple game with Vanilla Javascript, HTML and CSS.
